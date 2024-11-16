@@ -9,6 +9,7 @@
   </script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="shortcut icon" href="./assets/logo1.png" type="image/x-icon">
   <style>
    body {
             font-family: 'Roboto', sans-serif;
@@ -19,30 +20,30 @@
   <!-- Header -->
   <header class="bg-white shadow">
    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-    <a class="text-xl font-bold text-gray-800" href="#">
-     Student Club
+    <a class="text-xl font-bold text-gray-800 flex items-center relative" href="#">
+        <img src="./assets/logo3.png" width="500px" alt="">
     </a>
     <nav class="space-x-4">
      <a class="text-gray-800 hover:text-gray-600" href="#">
       Home
      </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#">
+     <a class="text-gray-800 hover:text-gray-600" href="#about">
       About
      </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#">
+     <a class="text-gray-800 hover:text-gray-600" href="#events">
       Events
      </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#">
+     <a class="text-gray-800 hover:text-gray-600" href="#news">
       News
      </a>
-     <a class="text-gray-800 hover:text-gray-600" href="#">
+     <a class="text-gray-800 hover:text-gray-600" href="#footer">
       Contact
      </a>
     </nav>
    </div>
   </header>
   <!-- Hero Section -->
-  <section class="bg-cover bg-center h-screen" style="background-image: url('https://placehold.co/1920x1080');">
+  <section class="bg-cover bg-center h-screen" style="background-image: url('./assets/e9944993-bb37-424d-afa5-d76c4a94c65f.jpeg');">
    <div class="container mx-auto px-6 h-full flex items-center justify-center">
     <div class="text-center">
      <h1 class="text-4xl font-bold text-white">
@@ -51,14 +52,14 @@
      <p class="text-white mt-4">
       Join us to explore, learn, and grow together.
      </p>
-     <a class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded" href="#">
+     <a class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded" href="#about">
       Get Started
      </a>
     </div>
    </div>
   </section>
   <!-- About Section -->
-  <section class="py-12 bg-white">
+  <section class="py-12 bg-white" id="about">
    <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center">
      About Us
@@ -69,7 +70,7 @@
    </div>
   </section>
   <!-- Events Section -->
-  <section class="py-12 bg-gray-100">
+  <section class="py-12 bg-gray-100" id="events">
    <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center">
      Upcoming Events
@@ -90,7 +91,7 @@
      <div class="bg-white p-6 rounded-lg shadow-lg">
       <img alt="Event 2: Students participating in a hackathon" class="w-full h-48 object-cover rounded-t-lg" height="300" src="https://storage.googleapis.com/a1aa/image/hy8zW2aulmrtHB6lWY6QTTQUaMRDOzumvrX9Fya4Kfrjjp4JA.jpg" width="400"/>
       <h3 class="mt-4 text-xl font-bold">
-       Hackathon 2023
+       Hackathon 2024
       </h3>
       <p class="mt-2 text-gray-600">
        Participate in our annual hackathon and showcase your coding skills. Collaborate with peers and win exciting prizes.
@@ -115,7 +116,7 @@
    </div>
   </section>
   <!-- News Section -->
-  <section class="py-12 bg-white">
+  <section class="py-12 bg-white" id="news">
    <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center">
      Latest News
@@ -161,19 +162,15 @@
    </div>
   </section>
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6">
+  <footer class="bg-gray-800 text-white py-6" id="footer">
    <div class="container mx-auto px-6">
     <div class="flex justify-between items-center">
      <p>
-      © 2023 Student Club. All rights reserved.
+      © 2024 Student Club. All rights reserved.
      </p>
      <div class="space-x-4">
       <a class="text-white hover:text-gray-400" href="#">
        <i class="fab fa-facebook-f">
-       </i>
-      </a>
-      <a class="text-white hover:text-gray-400" href="#">
-       <i class="fab fa-twitter">
        </i>
       </a>
       <a class="text-white hover:text-gray-400" href="#">
